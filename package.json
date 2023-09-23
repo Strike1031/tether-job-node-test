@@ -1,0 +1,35 @@
+{
+  "name": "tether-job-node-test",
+  "version": "1.0.0",
+  "description": "Test Job test with Node.js Dev position",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/test.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strike1031/tether-job-node-test.git"
+  },
+  "keywords": [
+    "hyperswarm",
+    "hyperdht",
+    "rpc",
+    "p2p",
+    "auction"
+  ],
+  "author": "Biru bin Jebat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strike1031/tether-job-node-test/issues"
+  },
+  "homepage": "https://github.com/strike1031/tether-job-node-test#readme",
+  "dependencies": {
+    "@hyperswarm/rpc": "^3.2.2",
+    "child_process": "^1.0.2",
+    "crypto": "^1.0.1",
+    "hyperbee": "^2.15.0",
+    "hypercore": "^10.24.10",
+    "hyperdht": "^6.6.1"
+  }
+}
